@@ -25,12 +25,12 @@ stoptimer = False
 
 TELETIPS_MAIN_MENU_BUTTONS = [
             [
-                InlineKeyboardButton('❓ HELP', callback_data="HELP_CALLBACK")
+                InlineKeyboardButton('❓ مساعدة', callback_data="HELP_CALLBACK")
             ],
             [
-                InlineKeyboardButton('👥 SUPPORT', callback_data="GROUP_CALLBACK"),
-                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/teletipsofficialchannel'),
-                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/teIetips')
+                InlineKeyboardButton('👥 الدعم', callback_data="GROUP_CALLBACK"),
+                InlineKeyboardButton('📣 القناة', url='https://t.me/cn_world'),
+                InlineKeyboardButton('👨‍💻 المطور', url='https://t.me/jj8jjj8)
             ],
             [
                 InlineKeyboardButton('➕ CREATE YOUR BOT ➕', callback_data="TUTORIAL_CALLBACK")
