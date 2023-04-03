@@ -5,30 +5,30 @@
 # Changing the code is not allowed! Read GNU AFFERO GENERAL PUBLIC LICENSE: https://github.com/teletips/CountdownTimer-TeLeTiPs/blob/main/LICENSE
                        
   
-START_TEXT = 'Heya,\nMy name is **Countdown Timer** ⏰\n\nI can countdown to your important events in **any group chat**. 🎉\nUse me to keep track of how much time is left for the event ⏳\n\nHit **❓HELP** to find out more about how to use me.'
+START_TEXT = 'مرحبا ، \ n اسمي  **Countdown Timer** ⏰\n\nيمكنني العد التنازلي لأحداثك المهمة في  **أي دردشة جماعية **. 🎉\nاستخدمني لتتبع مقدار الوقت المتبقي للحدث  ⏳\n\nإختر **مساعدة❓** لمعرفة المزيد حول كيفية استخدامي .'
 
 GROUP_TEXT="""
-👥 | **HELP & SUPPORT**
-<i>Feel free to report any issues regarding this service.</i>
+👥 | **المساعدة & الدعم**
+<i>لا تتردد في الإبلاغ عن أي مشاكل تتعلق بهذه الخدمة.
 """
 
 HELP_TEXT = """
-🚀 | **GET STARTED**
-<i>Add your bot to the group.</i>
-👮🏻‍♂️ | **ADMIN PERMISSIONS**
-<i>Don't forget to make your bot admin of the group.</i>
-🕹 | **COMMANDS**
+🚀 | **البدء **
+<i>أضف الروبوت الخاص بك إلى المجموعة .</i>
+👮🏻‍♂️ | **أعطه أذونات المشرف**
+<i>لا تنس أن تجعل البوت مسؤولاً عن المجموعة .</i>
+🕹 | **الاوامر**
 ✦ **set**
-<i>Send the command below in correct format to the group.</i>
-• <code>/set seconds "event"</code>
-**example**
+<i>أرسل الأمر أدناه بالتنسيق الصحيح إلى المجموعة .</i>
+• <code>/set الثواني "الحدث" </code>
+**مثال**
 • <code>/set 10 "10 seconds countdown"</code>
 ✦ **stopc**
-<i>You can use <code>/stopc</code> command to stop all countdowns.</i> 
+<i>يمكنك إستخدام <code>/stopc</code> لإيقاف جميع العدادات.</i> 
 ⚠️ | **WARNING**
-<i>Do not do more than 2 countdowns at the same time using the same bot.</i>
+<i>لا تقم بأكثر من عددين تنازليين في نفس الوقت باستخدام نفس الروبوت .</i>
 """
 
-TUTORIAL_TEXT = "💡 | Click the **🎥 Video** button to see the way of creating this bot for your group easily."
+TUTORIAL_TEXT = "💡 | **🎥 ** button to see the way of creating this bot for your group easily."
 
 #Copyright ©️ 2021 TeLe TiPs. All Rights Reserved.
