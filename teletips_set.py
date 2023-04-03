@@ -19,7 +19,7 @@ bot=Client(
     bot_token = "1630807867:AAHCoCOOQxnORnGH39hj0J8NtIL1sI9LOdM"
 )
 
-footer_message = "."
+footer_message = "العداد قيد التقدم\nإنتبه لي جيدا:)"
 
 stoptimer = False
 
