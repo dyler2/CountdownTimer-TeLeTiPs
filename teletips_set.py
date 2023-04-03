@@ -107,8 +107,8 @@ async def callback_query(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton('👥 الدعم', callback_data="GROUP_CALLBACK"),
-                InlineKeyboardButton('📣 القناة', url='https://t.me/cn_world_group),
-                InlineKeyboardButton('👨‍💻 المطور', url='https://t.me/jj8jjj8)
+                InlineKeyboardButton('📣 القناة', url='https://t.me/cn_world_group'),
+                InlineKeyboardButton('👨‍💻 المطور', url='https://t.me/jj8jjj8')
             ],
             [
                 InlineKeyboardButton('➕ ➕', callback_data="TUTORIAL_CALLBACK")
