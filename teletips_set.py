@@ -30,7 +30,7 @@ TELETIPS_MAIN_MENU_BUTTONS = [
             [
                 InlineKeyboardButton('👥 الدعم', callback_data="GROUP_CALLBACK"),
                 InlineKeyboardButton('📣 القناة', url='https://t.me/cn_world'),
-                InlineKeyboardButton('👨‍💻 المطور', url='https://t.me/jj8jjj8)
+                InlineKeyboardButton('👨‍💻 المطور', url='https://t.me/jj8jjj8')
             ],
             [
                 InlineKeyboardButton('➕ ➕', callback_data="TUTORIAL_CALLBACK")
