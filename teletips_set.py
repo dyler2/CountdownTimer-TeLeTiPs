@@ -33,7 +33,7 @@ TELETIPS_MAIN_MENU_BUTTONS = [
                 InlineKeyboardButton('👨‍💻 المطور', url='https://t.me/jj8jjj8)
             ],
             [
-                InlineKeyboardButton('➕ CREATE YOUR BOT ➕', callback_data="TUTORIAL_CALLBACK")
+                InlineKeyboardButton('➕ ➕', callback_data="TUTORIAL_CALLBACK")
             ]
         ]
 
@@ -52,7 +52,7 @@ async def callback_query(client: Client, query: CallbackQuery):
     if query.data=="HELP_CALLBACK":
         TELETIPS_HELP_BUTTONS = [
             [
-                InlineKeyboardButton("⬅️ BACK", callback_data="START_CALLBACK")
+                InlineKeyboardButton("⬅️ رجوع", callback_data="START_CALLBACK")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(TELETIPS_HELP_BUTTONS)
@@ -67,10 +67,10 @@ async def callback_query(client: Client, query: CallbackQuery):
     elif query.data=="GROUP_CALLBACK":
         TELETIPS_GROUP_BUTTONS = [
             [
-                InlineKeyboardButton("TeLe TiPs Chat [EN]", url="https://t.me/teletipsofficialontopicchat")
+                InlineKeyboardButton("TeLe TiPs Chat [EN]", url="https://t.me/cn_world_group")
             ],
             [
-                InlineKeyboardButton("⬅️ BACK", callback_data="START_CALLBACK"),
+                InlineKeyboardButton("⬅️ رجوع", callback_data="START_CALLBACK"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(TELETIPS_GROUP_BUTTONS)
@@ -85,10 +85,10 @@ async def callback_query(client: Client, query: CallbackQuery):
     elif query.data=="TUTORIAL_CALLBACK":
         TELETIPS_TUTORIAL_BUTTONS = [
             [
-                InlineKeyboardButton("🎥 Video", url="https://youtu.be/nYSrgdIYdTw")
+                InlineKeyboardButton("🎥 Video", url="t.me/cn_world")
             ],
             [
-                InlineKeyboardButton("⬅️ BACK", callback_data="START_CALLBACK"),
+                InlineKeyboardButton("⬅️ رجوع", callback_data="START_CALLBACK"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(TELETIPS_TUTORIAL_BUTTONS)
@@ -103,15 +103,15 @@ async def callback_query(client: Client, query: CallbackQuery):
     elif query.data=="START_CALLBACK":
         TELETIPS_START_BUTTONS = [
             [
-                InlineKeyboardButton('❓ HELP', callback_data="HELP_CALLBACK")
+                InlineKeyboardButton('❓ مساعدة', callback_data="HELP_CALLBACK")
             ],
             [
-                InlineKeyboardButton('👥 SUPPORT', callback_data="GROUP_CALLBACK"),
-                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/teletipsofficialchannel'),
-                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/teIetips')
+                InlineKeyboardButton('👥 الدعم', callback_data="GROUP_CALLBACK"),
+                InlineKeyboardButton('📣 القناة', url='https://t.me/cn_world_group),
+                InlineKeyboardButton('👨‍💻 المطور', url='https://t.me/jj8jjj8)
             ],
             [
-                InlineKeyboardButton('➕ CREATE YOUR BOT ➕', callback_data="TUTORIAL_CALLBACK")
+                InlineKeyboardButton('➕ ➕', callback_data="TUTORIAL_CALLBACK")
             ]
         ]
         reply_markup = InlineKeyboardMarkup(TELETIPS_START_BUTTONS)
@@ -128,11 +128,11 @@ async def set_timer(client, message):
     global stoptimer
     try:
         if message.chat.id>0:
-            return await message.reply('⛔️ Try this command in a **group chat**.')
+            return await message.reply('إستخدم هذا الأمر في **المجموعات**')
         elif not (await client.get_chat_member(message.chat.id,message.from_user.id)).privileges:
-            return await message.reply('👮🏻‍♂️ Sorry, **only admins** can execute this command.')    
+            return await message.reply('👮🏻‍♂️ اعتذر, **الادمنية** يمكنهم إستخدام هذا الأمر.')    
         elif len(message.command)<3:
-            return await message.reply('❌ **Incorrect format.**\n\n✅ Format should be like,\n<code> /set seconds "event"</code>\n\n**Example**:\n <code>/set 10 "10 seconds countdown"</code>')    
+            return await message.reply('❌ **تنسيق غير صحيح .**\n\n✅ يجب أن يكون مثل:,\n<code> /set seconds "event"</code>\n\n**Example**:\n <code>/set 10 "10 seconds countdown"</code>')    
         else:
             user_input_time = int(message.command[1])
             user_input_event = str(message.command[2])
@@ -197,13 +197,13 @@ async def stop_timer(Client, message):
     try:
         if (await bot.get_chat_member(message.chat.id,message.from_user.id)).privileges:
             stoptimer = True
-            await message.reply('🛑 Countdown stopped.')
+            await message.reply('🛑 توقف المؤقت.')
         else:
-            await message.reply('👮🏻‍♂️ Sorry, **only admins** can execute this command.')
+            await message.reply('👮🏻‍♂️ عذرا، فقط الادمنية يمكنهم إستخدام هذا الأمر.')
     except FloodWait as e:
         await asyncio.sleep(e.value)
 
-print("Countdown Timer is alive!")
+print("العدد حي!")
 bot.run()
 
 #Copyright ©️ 2021 TeLe TiPs. All Rights Reserved
