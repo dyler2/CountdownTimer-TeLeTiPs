@@ -45,12 +45,7 @@ Example:
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/teletipsalltestings/CountdownTimer-TeLeTiPs)
-    
-## Credits
-- [TeLe TiPs](https://github.com/teletips)
-- [Thakshaka](https://t.me/thakshakar)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/h0-qp/CountdownTimer-TeLeTiPs)
 
 ## Warning
 
@@ -59,7 +54,7 @@ Example:
 
 ```
 ## Credits
-- [Countdown Timer Telegram bot by TeLe TiPs] (https://github.com/teletips/CountdownTimer-TeLeTiPs)
+- [Countdown Timer Telegram bot by TeLe TiPs] (https://github.com/h0-qp/CountdownTimer-TeLeTiPs)
 ```
 ## License
-[GNU Affero General Public License v3.0](https://github.com/teletips/CountdownTimer-TeLeTiPs/blob/main/LICENSE)
+[GNU Affero General Public License v3.0](https://github.com/h0-qp/CountdownTimer-TeLeTiPs/blob/main/LICENSE)
