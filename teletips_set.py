@@ -16,7 +16,7 @@ bot=Client(
     "Countdown-TeLeTiPs",
     api_id = 15079546,
     api_hash = "7f23e142ef6d9f0815c2f96d35912f15",
-    bot_token = "1630807867:AAHCoCOOQxnORnGH39hj0J8NtIL1sI9LOdM"
+    bot_token = "5157550275:AAEjA_ejeRVI0Hyo-jrziycyZRS6VyHZQLw"
 )
 
 footer_message = "العداد قيد التقدم\nإنتبه لي جيدا:)"
