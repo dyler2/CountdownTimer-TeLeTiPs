@@ -4,7 +4,7 @@ services:
     name: pytele-loader
     repo: https://github.com/h0-qp/CountdownTimer-TeLeTiPs
     branch: main
-    region: frankfurt
+    #region: frankfurt
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python3 teletips_set.py
