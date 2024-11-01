@@ -4,7 +4,7 @@
 
 # Changing the code is not allowed! Read GNU AFFERO GENERAL PUBLIC LICENSE: https://github.com/teletips/CountdownTimer-TeLeTiPs/blob/main/LICENSE
  
-from pyrogram import Client, filters
+from pyrogram import Client, filters,idle
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 import os
 import asyncio
@@ -18,6 +18,7 @@ bot=Client(
     api_hash = "249920fba6117b3d90a779135172fe09",
     bot_token = "5157550275:AAEjA_ejeRVI0Hyo-jrziycyZRS6VyHZQLw"
 )
+bot.start()
 
 footer_message = "العداد قيد التقدم\nإنتبه لي جيدا:)"
 
@@ -205,5 +206,6 @@ async def stop_timer(Client, message):
 
 print("العدد حي!")
 bot.run()
+idle()
 
 #Copyright ©️ 2021 TeLe TiPs. All Rights Reserved
