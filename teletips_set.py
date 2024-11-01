@@ -14,8 +14,8 @@ from pyrogram.raw.functions.messages import UpdatePinnedMessage
 
 bot=Client(
     "Countdown-TeLeTiPs",
-    api_id = 15079546,
-    api_hash = "7f23e142ef6d9f0815c2f96d35912f15",
+    api_id = 22266096,
+    api_hash = "249920fba6117b3d90a779135172fe09",
     bot_token = "5157550275:AAEjA_ejeRVI0Hyo-jrziycyZRS6VyHZQLw"
 )
 
