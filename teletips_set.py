@@ -13,7 +13,7 @@ from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.raw.functions.messages import UpdatePinnedMessage
 
 bot=Client(
-    "Countdown-TeLeTiPs",
+    "Countdown-tey192939",
     api_id = 22266096,
     api_hash = "249920fba6117b3d90a779135172fe09",
     bot_token = "5157550275:AAEjA_ejeRVI0Hyo-jrziycyZRS6VyHZQLw"
